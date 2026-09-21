@@ -28,7 +28,7 @@
 
 - I build small, useful tools first, then improve them into cleaner public projects.
 - I am most interested in Python, computer vision, NLP, model evaluation, and automation.
-- I like projects that connect model behavior to real workflows: auditing datasets, improving repository quality, comparing text, detecting objects, and making everyday tools feel better.
+- I like projects that connect model behavior and algorithms to real workflows: auditing datasets, improving repository quality, planning emergency logistics, detecting objects, and making everyday tools feel better.
 - I am currently polishing my GitHub so recruiters can quickly see what I build, how I think, and what I am learning.
 - I am open to internships, junior developer roles, ML projects, and practical software collaborations.
 
@@ -64,7 +64,7 @@
 | --- | --- | --- | --- |
 | [YOLO Dataset Auditor](https://github.com/EvanMaksud/yolo-dataset-auditor) | New repo | Python, CLI, computer vision | Audits YOLO datasets before training: missing labels, orphan labels, invalid class IDs, malformed rows, class counts, and Markdown/JSON reports. |
 | [Repo Health Auditor](https://github.com/EvanMaksud/repo-health-auditor) | New repo | Python, CLI, testing | Scores whether a repository is ready for public portfolio use by checking README quality, tests, packaging, CI, license, gitignore, source layout, and secret risks. |
-| [Job Fit Analyzer](https://github.com/EvanMaksud/job-fit-analyzer) | New repo | Python, NLP-style text analysis | Compares a resume/CV against a job description, extracts matched and missing keywords, scores skill categories, and exports Markdown/JSON reports. |
+| [Flood Relief Route Planner](https://github.com/EvanMaksud/flood-relief-route-planner) | New repo | Python, graph search, logistics | Plans relief deliveries from supply hubs to shelters while avoiding blocked roads, penalizing risky roads, and prioritizing urgent unmet demand. |
 | [Infinite Mouse Scroll](https://github.com/EvanMaksud/Infinite-Mouse-Scroll) | Public repo | Python, Windows API, ctypes | Lightweight Windows utility that adds software momentum scrolling, hotkeys, braking behavior, and no third-party dependency requirement. |
 | [Object Detection YOLO11](https://github.com/EvanMaksud/Object-Detection-YOLO11) | Public notebook | YOLO11, Ultralytics, OpenCV, PyTorch | Vehicle detection workflow with dataset inspection, training, transfer learning, learning curves, confusion matrix, and validation. |
 | [Sentiment Analysis BERT](https://github.com/EvanMaksud/Sentiment-Analysis-BERT) | Public notebook | BERT, Transformers, PyTorch, scikit-learn | Multi-class emotion classification notebook with tokenization, dataloaders, training loop, and evaluation metrics. |
@@ -82,7 +82,7 @@ The fastest way to review my work is:
 
 1. Start with [YOLO Dataset Auditor](https://github.com/EvanMaksud/yolo-dataset-auditor) for a complete tested Python CLI tied to computer vision.
 2. Open [Repo Health Auditor](https://github.com/EvanMaksud/repo-health-auditor) for clean software-engineering structure, tests, and reporting.
-3. Try [Job Fit Analyzer](https://github.com/EvanMaksud/job-fit-analyzer) for practical text analysis and CLI output design.
+3. Try [Flood Relief Route Planner](https://github.com/EvanMaksud/flood-relief-route-planner) for graph search, prioritization, and real-world logistics modeling.
 4. Review [Infinite Mouse Scroll](https://github.com/EvanMaksud/Infinite-Mouse-Scroll), [Object Detection YOLO11](https://github.com/EvanMaksud/Object-Detection-YOLO11), and [Sentiment Analysis BERT](https://github.com/EvanMaksud/Sentiment-Analysis-BERT) for my earlier Python, CV, and NLP work.
 
 ## Connect

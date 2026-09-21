@@ -15,7 +15,7 @@ Publish the three real project repositories first so the profile links work:
 
 1. `yolo-dataset-auditor`
 2. `repo-health-auditor`
-3. `job-fit-analyzer`
+3. `flood-relief-route-planner`
 4. `EvanMaksud` profile repository
 
 The project repos are ready locally under:
@@ -31,7 +31,7 @@ Create these three public GitHub repositories:
 ```text
 yolo-dataset-auditor
 repo-health-auditor
-job-fit-analyzer
+flood-relief-route-planner
 ```
 
 Then push each local repo:
@@ -45,8 +45,8 @@ cd "E:\ppp 2\real-portfolio-projects\repo-health-auditor"
 git remote add origin https://github.com/EvanMaksud/repo-health-auditor.git
 git push -u origin main
 
-cd "E:\ppp 2\real-portfolio-projects\job-fit-analyzer"
-git remote add origin https://github.com/EvanMaksud/job-fit-analyzer.git
+cd "E:\ppp 2\real-portfolio-projects\flood-relief-route-planner"
+git remote add origin https://github.com/EvanMaksud/flood-relief-route-planner.git
 git push -u origin main
 ```
 
@@ -70,7 +70,7 @@ https://github.com/EvanMaksud
 
 ## Recommended GitHub Settings
 
-- Pin these repositories: `yolo-dataset-auditor`, `repo-health-auditor`, `job-fit-analyzer`, `Infinite-Mouse-Scroll`, `Object-Detection-YOLO11`, `Sentiment-Analysis-BERT`.
+- Pin these repositories: `yolo-dataset-auditor`, `repo-health-auditor`, `flood-relief-route-planner`, `Infinite-Mouse-Scroll`, `Object-Detection-YOLO11`, `Sentiment-Analysis-BERT`.
 - Add a short GitHub bio such as: `Python developer exploring automation, computer vision, NLP, and practical ML tools.`
 - Add repo descriptions so they do not look empty in search and profile cards.
 
@@ -78,6 +78,6 @@ Suggested descriptions:
 
 - `yolo-dataset-auditor`: `CLI tool for auditing YOLO datasets before object-detection training.`
 - `repo-health-auditor`: `CLI tool that scores repository readiness for public portfolio use.`
-- `job-fit-analyzer`: `CLI tool for comparing a resume against a job description with keyword and skill-category reports.`
+- `flood-relief-route-planner`: `CLI tool for planning flood-relief deliveries across risky or blocked road networks.`
 - `Sentiment-Analysis-BERT`: `Fine-tuning BERT for multi-class emotion classification with PyTorch and Transformers.`
 - `Object-Detection-YOLO11`: `Vehicle detection workflow with YOLO11, OpenCV, PyTorch, and Kaggle notebooks.`
