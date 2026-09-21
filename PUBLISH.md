@@ -18,7 +18,7 @@ Then run:
 ```powershell
 cd "E:\ppp 2\EvanMaksud"
 git init
-git add README.md PUBLISH.md repo-readme-drafts
+git add README.md PUBLISH.md project-notes repo-readme-drafts
 git commit -m "Add profile README"
 git branch -M main
 git remote add origin https://github.com/EvanMaksud/EvanMaksud.git
@@ -41,4 +41,3 @@ Suggested descriptions:
 
 - `Sentiment-Analysis-BERT`: `Fine-tuning BERT for multi-class emotion classification with PyTorch and Transformers.`
 - `Object-Detection-YOLO11`: `Vehicle detection workflow with YOLO11, OpenCV, PyTorch, and Kaggle notebooks.`
-
