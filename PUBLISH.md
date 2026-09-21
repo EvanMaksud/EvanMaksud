@@ -70,9 +70,10 @@ https://github.com/EvanMaksud
 
 ## Recommended GitHub Settings
 
-- Pin these repositories: `yolo-dataset-auditor`, `repo-health-auditor`, `flood-relief-route-planner`, `Infinite-Mouse-Scroll`, `Object-Detection-YOLO11`, `Sentiment-Analysis-BERT`.
+- Pin these repositories: `yolo-dataset-auditor`, `flood-relief-route-planner`, `repo-health-auditor`, `Infinite-Mouse-Scroll`, `Object-Detection-YOLO11`, `Sentiment-Analysis-BERT`.
 - Add a short GitHub bio such as: `Python developer exploring automation, computer vision, NLP, and practical ML tools.`
 - Add repo descriptions so they do not look empty in search and profile cards.
+- Follow `GITHUB_SETUP.md` for the full profile checklist.
 
 Suggested descriptions:
 
