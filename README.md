@@ -28,7 +28,7 @@
 
 - I build small, useful tools first, then improve them into cleaner public projects.
 - I am most interested in Python, computer vision, NLP, model evaluation, and automation.
-- I like projects that connect model behavior to real workflows: detecting vehicles, classifying text, tracking time, improving images, or making everyday input devices feel better.
+- I like projects that connect model behavior to real workflows: auditing datasets, improving repository quality, comparing text, detecting objects, and making everyday tools feel better.
 - I am currently polishing my GitHub so recruiters can quickly see what I build, how I think, and what I am learning.
 - I am open to internships, junior developer roles, ML projects, and practical software collaborations.
 
@@ -58,18 +58,16 @@
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
-## Projects
+## Featured Projects
 
 | Project | Type | Tech | What it shows |
 | --- | --- | --- | --- |
+| [YOLO Dataset Auditor](https://github.com/EvanMaksud/yolo-dataset-auditor) | New repo | Python, CLI, computer vision | Audits YOLO datasets before training: missing labels, orphan labels, invalid class IDs, malformed rows, class counts, and Markdown/JSON reports. |
+| [Repo Health Auditor](https://github.com/EvanMaksud/repo-health-auditor) | New repo | Python, CLI, testing | Scores whether a repository is ready for public portfolio use by checking README quality, tests, packaging, CI, license, gitignore, source layout, and secret risks. |
+| [Job Fit Analyzer](https://github.com/EvanMaksud/job-fit-analyzer) | New repo | Python, NLP-style text analysis | Compares a resume/CV against a job description, extracts matched and missing keywords, scores skill categories, and exports Markdown/JSON reports. |
 | [Infinite Mouse Scroll](https://github.com/EvanMaksud/Infinite-Mouse-Scroll) | Public repo | Python, Windows API, ctypes | Lightweight Windows utility that adds software momentum scrolling, hotkeys, braking behavior, and no third-party dependency requirement. |
-| [Vehicle Line Counter](project-notes/vehicle-line-counter.md) | Case study | YOLO, ByteTrack, OpenCV, Python | Counts vehicles crossing a user-drawn line in video, with optional speed estimation and Roboflow inference support. |
-| [Local U-Net Image Enhancer](project-notes/unet-image-enhancer.md) | Case study | Flask, Pillow, NumPy, PyTorch | Local web app for image enhancement/upscaling with optional U-Net super-resolution checkpoint support. |
 | [Object Detection YOLO11](https://github.com/EvanMaksud/Object-Detection-YOLO11) | Public notebook | YOLO11, Ultralytics, OpenCV, PyTorch | Vehicle detection workflow with dataset inspection, training, transfer learning, learning curves, confusion matrix, and validation. |
 | [Sentiment Analysis BERT](https://github.com/EvanMaksud/Sentiment-Analysis-BERT) | Public notebook | BERT, Transformers, PyTorch, scikit-learn | Multi-class emotion classification notebook with tokenization, dataloaders, training loop, and evaluation metrics. |
-| [Time Work Tracker](project-notes/time-work-tracker.md) | Case study | Flask, SQLite, JavaScript, Excel export | Local productivity tracker with project timers, editable logs, filters, and Excel dashboard export. |
-| [SafeScale Local Pilot](project-notes/safescale-local-pilot.md) | Case study | PyTorch, Transformers, pytest, data analysis | Offline-first model-evaluation pilot with cached model outputs, bootstrap analysis, diagnostics, and unit tests. |
-| [Glyph Random](project-notes/glyph-random.md) | Case study | Android, Nothing Glyph SDK | Experimental Nothing Phone glyph app with randomized sparse light patterns and minimal permissions. |
 
 ## GitHub Stats
 
@@ -82,10 +80,10 @@
 
 The fastest way to review my work is:
 
-1. Start with [Infinite Mouse Scroll](https://github.com/EvanMaksud/Infinite-Mouse-Scroll) for a clean Python utility.
-2. Open the [YOLO11 object detection notebook](https://github.com/EvanMaksud/Object-Detection-YOLO11) for computer vision work.
-3. Open the [BERT sentiment analysis notebook](https://github.com/EvanMaksud/Sentiment-Analysis-BERT) for NLP work.
-4. Read the project case studies above for additional local projects I am preparing to publish as full repositories.
+1. Start with [YOLO Dataset Auditor](https://github.com/EvanMaksud/yolo-dataset-auditor) for a complete tested Python CLI tied to computer vision.
+2. Open [Repo Health Auditor](https://github.com/EvanMaksud/repo-health-auditor) for clean software-engineering structure, tests, and reporting.
+3. Try [Job Fit Analyzer](https://github.com/EvanMaksud/job-fit-analyzer) for practical text analysis and CLI output design.
+4. Review [Infinite Mouse Scroll](https://github.com/EvanMaksud/Infinite-Mouse-Scroll), [Object Detection YOLO11](https://github.com/EvanMaksud/Object-Detection-YOLO11), and [Sentiment Analysis BERT](https://github.com/EvanMaksud/Sentiment-Analysis-BERT) for my earlier Python, CV, and NLP work.
 
 ## Connect
 
@@ -95,5 +93,5 @@ The fastest way to review my work is:
 ---
 
 <p align="center">
-  Thanks for visiting. I am still building in public, and this profile will keep getting better as more projects move from local work to polished repositories.
+  Thanks for visiting. I am building in public and keeping this profile focused on projects that are useful, documented, and easy to review.
 </p>
