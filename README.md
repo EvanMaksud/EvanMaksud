@@ -82,19 +82,6 @@ I graduated in Mechanical Engineering from **Chittagong University of Engineerin
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 </p>
 
-### Engineering, Simulation & Robotics
-
-<p>
-  <img src="https://img.shields.io/badge/MATLAB-E16737?style=flat-square" alt="MATLAB">
-  <img src="https://img.shields.io/badge/Simulink-0076A8?style=flat-square" alt="Simulink">
-  <img src="https://img.shields.io/badge/ANSYS-FFB71B?style=flat-square&logo=ansys&logoColor=111111" alt="ANSYS">
-  <img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white" alt="Arduino">
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32">
-  <img src="https://img.shields.io/badge/SolidWorks-E2231A?style=flat-square&logo=dassaultsystemes&logoColor=white" alt="SolidWorks">
-  <img src="https://img.shields.io/badge/Fusion_360-FC9C0C?style=flat-square&logo=autodesk&logoColor=111111" alt="Fusion 360">
-  <img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white" alt="Blender">
-</p>
-
 ## Engineering Profile
 
 | Area | What I focus on |
