@@ -93,6 +93,14 @@ I graduated in Mechanical Engineering from **Chittagong University of Engineerin
 | Model interfaces | Typed APIs, command-line workflows, input validation, and versioned artifacts |
 | Delivery | Automated tests, CI, containers, and documentation of limitations |
 
+## Selected Work
+
+| Project | Focus |
+| --- | --- |
+| [Dhaka Rainfall Risk](https://github.com/EvanMaksud/dhaka-rainfall-risk) | Calibrated next-day rainfall-risk modeling with real NASA POWER weather data, temporal validation, CLI, API, Docker, and CI |
+| [RAG Evaluation Lab](https://github.com/EvanMaksud/rag-evaluation-lab) | Local-first retrieval evaluation for LLM/RAG systems with corpus loading, chunking experiments, public-corpus download, metrics, reports, tests, and CI |
+| [YOLO Dataset Auditor](https://github.com/EvanMaksud/yolo-dataset-auditor) | Computer-vision dataset quality gate for YOLO labels, duplicate image detection, class imbalance checks, Markdown/JSON reports, and CI |
+
 ## Current Direction
 
 I am deepening my work in production-minded AI engineering: stronger evaluation under distribution shift, multimodal systems, computer-vision reliability, and maintainable model-serving infrastructure.
