@@ -1,92 +1,54 @@
-<p align="center">
-  <img alt="Evan Maksud banner" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0F766E,50:0369A1,100:F59E0B&text=Evan%20Maksud&fontColor=ffffff&fontSize=44&fontAlignY=36&desc=AI%20Engineer%20%7C%20Multilingual%20NLP%20%7C%20Computer%20Vision%20%7C%20Model%20Serving&descAlignY=58&descSize=15">
-</p>
+<img src="./assets/profile-banner.png" alt="Dhaka monsoon data map" width="100%">
 
-<p align="center">
-  <img alt="AI engineering focus" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=2800&pause=800&center=true&vCenter=true&width=820&lines=Building+human-in-the-loop+AI+systems;Serving+models+through+tested+APIs;Measuring+quality%2C+uncertainty%2C+and+failure+modes;Applying+AI+to+disaster-response+workflows">
-</p>
+# Evan Maksud
 
-<p align="center">
-  <a href="https://github.com/EvanMaksud/shongket-ai">
-    <img alt="Multilingual NLP" src="https://img.shields.io/badge/Shongket-Multilingual%20NLP-0F766E?style=for-the-badge">
-  </a>
-  <a href="https://github.com/EvanMaksud/bonnasight-ai">
-    <img alt="Computer vision" src="https://img.shields.io/badge/BonnaSight-Vision%20Inference-0369A1?style=for-the-badge">
-  </a>
-  <a href="https://github.com/EvanMaksud?tab=repositories">
-    <img alt="All repositories" src="https://img.shields.io/badge/Explore-Repositories-181717?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-</p>
+**Machine learning engineer building reliable systems around real data.**
 
-## AI Engineering Focus
+I work across the ML lifecycle: data contracts, leakage-safe features, honest evaluation, calibrated inference, APIs, tests, and deployment boundaries. I am especially interested in systems where uncertainty matters and a model has to earn trust outside a notebook.
 
-I build AI systems around the model, not just notebooks around an accuracy score. My work connects data validation, inference, uncertainty, evaluation, APIs, and human review into software that can be tested and inspected.
+Currently based in Bangladesh, with a focus on applied machine learning, computer vision, and developer tooling.
 
-My current portfolio explores a specific problem: **how multilingual reports and visual evidence can support safer disaster-response decisions in Bangladesh**.
+## Current Flagship
 
-- Multilingual NLP for Bangla and English incident reports
-- Computer vision for flood-road condition assessment
-- Confidence thresholds and human-in-the-loop review
-- FastAPI model serving, Docker, testing, and CI
-- Dataset quality, evaluation, and reproducible model behavior
+### [Dhaka Rainfall Risk](https://github.com/EvanMaksud/dhaka-rainfall-risk)
 
-## Disaster Response AI Stack
+A reproducible next-day rainfall-risk system built from 16 years of NASA POWER observations for Dhaka. The work includes a documented data pipeline, temporal leakage tests, chronological train/validation/test splits, model comparison, probability calibration, bootstrap uncertainty, a CLI, a typed FastAPI service, Docker packaging, and CI.
 
-| System | AI engineering problem | What it demonstrates |
-| --- | --- | --- |
-| [Shongket AI](https://github.com/EvanMaksud/shongket-ai) | Multilingual disaster-report triage | Cross-lingual embeddings, category prototypes, semantic duplicate detection, confidence gates, evaluation, FastAPI, and Docker. |
-| [BonnaSight AI](https://github.com/EvanMaksud/bonnasight-ai) | Flood-road image assessment | Zero-shot vision inference, prompt ensembles, uncertainty handling, route-risk mapping, GeoJSON, model serving, and model limitations. |
-| [Flood Relief Route Planner](https://github.com/EvanMaksud/flood-relief-route-planner) | Decision support after inference | Risk-weighted graph search, blocked-road avoidance, supply allocation, and explainable delivery planning. |
-| [YOLO Dataset Auditor](https://github.com/EvanMaksud/yolo-dataset-auditor) | Training-data reliability | Missing-label detection, annotation validation, class-distribution reporting, tests, and CI for YOLO datasets. |
+| Untouched 2024-2025 holdout | Result |
+| --- | ---: |
+| Days evaluated | 731 |
+| Moderately-heavy-or-higher rain days | 68 |
+| Average precision | 0.476 |
+| Recall at validation-selected threshold | 0.735 |
+| Brier score | 0.068 |
 
-Together, these projects form a coherent pipeline:
+The repository also documents where the model does *not* win: a simple persistence baseline remains slightly better on test F2 and ROC AUC. I care more about a defensible result than an impressive-looking one.
 
-```text
-Bangla/English reports -> Shongket AI -> structured incident queue
-Road images            -> BonnaSight AI -> reviewed route-risk observations
-Supplies + road risks  -> Relief Planner -> explainable delivery plan
-```
+<a href="https://github.com/EvanMaksud/dhaka-rainfall-risk">
+  <img src="https://raw.githubusercontent.com/EvanMaksud/dhaka-rainfall-risk/main/reports/figures/model_evaluation.png" alt="Dhaka rainfall model holdout evaluation" width="100%">
+</a>
 
-## Earlier Model Work
+## Selected Engineering Work
 
-| Project | Model work |
+| Project | What it solves |
 | --- | --- |
-| [Object Detection with YOLO11](https://github.com/EvanMaksud/Object-Detection-YOLO11) | Vehicle-detection dataset inspection, training, transfer learning, validation curves, and confusion-matrix analysis. |
-| [Sentiment Analysis with BERT](https://github.com/EvanMaksud/Sentiment-Analysis-BERT) | Multi-class emotion classification with tokenization, PyTorch dataloaders, BERT fine-tuning, and evaluation. |
+| [YOLO Dataset Auditor](https://github.com/EvanMaksud/yolo-dataset-auditor) | Catches malformed annotations, missing labels, class imbalance, and train/validation leakage before object-detection training. |
+| [Repository Health Auditor](https://github.com/EvanMaksud/repo-health-auditor) | Scores repository fundamentals through a tested CLI with machine-readable output for automation. |
+| [Flood Relief Route Planner](https://github.com/EvanMaksud/flood-relief-route-planner) | Explores risk-aware routing and supply allocation when roads are blocked or unsafe. |
+| [Object Detection with YOLO11](https://github.com/EvanMaksud/Object-Detection-YOLO11) | Earlier computer-vision work covering transfer learning, validation curves, and error analysis. |
 
-## Engineering Stack
+## How I Work
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
-  <img alt="Transformers" src="https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black">
-  <img alt="Sentence Transformers" src="https://img.shields.io/badge/Sentence%20Transformers-0F766E?style=flat-square">
-  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white">
-  <img alt="YOLO" src="https://img.shields.io/badge/YOLO-111111?style=flat-square&logo=opencv&logoColor=white">
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
-  <img alt="Pydantic" src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img alt="pytest" src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-</p>
+- Start with a real decision and define what the prediction does and does not mean.
+- Keep train, validation, and test boundaries aligned with how time moves in production.
+- Compare against simple baselines before adding model complexity.
+- Treat calibration, failure modes, and data provenance as first-class outputs.
+- Package inference behind validated interfaces and test the path users actually run.
 
-## How I Build
+## Toolbox
 
-- Treat model output as uncertain evidence, not unquestionable truth.
-- Separate model confidence from operational urgency and risk policy.
-- Keep safety-critical decisions human-controlled.
-- Make evaluation reproducible and avoid unsupported performance claims.
-- Design model backends so orchestration can be tested without downloading weights.
-- Document intended use, failure modes, and data requirements alongside code.
+`Python` · `scikit-learn` · `PyTorch` · `Transformers` · `OpenCV` · `YOLO` · `pandas` · `FastAPI` · `Pydantic` · `pytest` · `Docker` · `GitHub Actions`
 
-## Recruiter Review Path
+## Contact
 
-1. Start with [Shongket AI](https://github.com/EvanMaksud/shongket-ai) for multilingual NLP architecture and human-in-the-loop inference.
-2. Review [BonnaSight AI](https://github.com/EvanMaksud/bonnasight-ai) for computer vision serving, uncertainty, geospatial output, and model-risk documentation.
-3. Open [YOLO Dataset Auditor](https://github.com/EvanMaksud/yolo-dataset-auditor) for data-quality engineering and tested CLI design.
-4. Use [Flood Relief Route Planner](https://github.com/EvanMaksud/flood-relief-route-planner) to see how model outputs can feed an explainable decision layer.
-
-## Connect
-
-- GitHub: [@EvanMaksud](https://github.com/EvanMaksud)
-- Contact: available through my CV or GitHub profile
+The best way to reach me is through the contact information on my CV. For technical context, start with [Dhaka Rainfall Risk](https://github.com/EvanMaksud/dhaka-rainfall-risk) and its [experiment log](https://github.com/EvanMaksud/dhaka-rainfall-risk/blob/main/EXPERIMENT_LOG.md).
